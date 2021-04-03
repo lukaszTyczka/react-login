@@ -28,10 +28,10 @@ function Login({ setToken }) {
         <div className="login-wrapper">
             <h1>Please Log In</h1>
             <form onSubmit={handleSubmit}>
-                <lable>
+                <label>
                     <p>Username</p>
                     <input type="text" />
-                </lable>
+                </label>
                 <label>
                     <p>Password</p>
                     <input
